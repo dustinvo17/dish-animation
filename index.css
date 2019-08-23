@@ -1,0 +1,60 @@
+*,html {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+body {
+  
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
+    font-family: 'Lexend Zetta', sans-serif;
+    color:#989C94;
+    background:#F5FCE9;
+
+
+}
+
+header {
+    height:10vh;
+    grid-column: 2/-2;
+    display:flex;
+    justify-content: space-between;
+    padding:2rem;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+nav div {
+    margin-right:2rem;
+}
+main {
+     grid-column: 1/-1;
+     display:flex;
+    
+     align-items: center;
+     height:90vh;
+    justify-content: center;
+}
+.product-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    line-height:2;
+}
+img {
+    width:25rem;
+    height:auto;
+   
+}
+.description{
+    text-align: center;
+    margin-top:2rem;
+}
+i {
+   font-size:4rem!important;
+   margin:0 0 5rem 5rem;
+   cursor: pointer;
+}
